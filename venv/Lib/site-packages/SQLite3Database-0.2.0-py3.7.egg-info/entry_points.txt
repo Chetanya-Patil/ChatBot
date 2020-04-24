@@ -1,0 +1,9 @@
+
+        [database.engine]
+        insert_record=sqlite3database.helper:insert_record
+        engine_name=  sqlite3database:engine_name
+        plugin_name=  sqlite3database:plugin_name
+        driver_name=  sqlite3database:driver_name
+        param_style=  sqlite3database:param_style
+        update_config=sqlite3database.helper:update_config
+    
